@@ -38,10 +38,10 @@ const Hero = () => {
                             </ul>
                         </div>
                     ))}
-                    <button className='lg:hidden text-base font-bold rounded-full rounded-tl-none bg-white py-3 px-5 flex items-center text-black hover:rounded-tl-full hover:rounded-br-none duration-300 ease-linear gap-1'>Get Started <Arrow/></button>
+                    <button className='lg:hidden text-base font-bold rounded-full rounded-tl-none bg-white py-3 px-5 flex items-center text-black hover:scale-90 duration-300 ease-linear gap-1'>Get Started <Arrow/></button>
                 </div>
                 <div>
-                    <button className='max-lg:hidden text-base font-bold rounded-full rounded-tl-none bg-white py-3 px-5 flex items-center text-black hover:rounded-tl-full hover:rounded-br-none duration-300 ease-linear gap-1'>Get Started <Arrow/></button>
+                    <button className='max-lg:hidden text-base font-bold rounded-full rounded-tl-none bg-white py-3 px-5 flex items-center text-black hover:scale-90 duration-300 ease-linear gap-1'>Get Started <Arrow/></button>
                 </div>
                 <div onClick={toggleSidebar} className='z-[15] flex-col gap-1 lg:hidden flex'>
                     <span className={`${open ? 'w-8 h-1 bg-white rotate-45 translate-y-3 duration-300 ease-linear rounded' : 'w-8 h-1 bg-white duration-300 ease-linear rounded'}`}></span>
