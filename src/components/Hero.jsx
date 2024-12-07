@@ -32,8 +32,8 @@ const Hero = () => {
                     {NAV_LIST.map((obj, i) => (
                         <div key={i}>
                             <ul>
-                                <li className='flex gap-1 flex-row justify-center items-center relative after:absolute after:w-0 after:transition-all after:duration-300 after:hover:w-full after:bottom-0 after:h-0.5 after:bg-white pb-0.5'>
-                                    <a onClick={closeNavbar} href={obj.id} className=' text-base font-normal text-white'>{obj.name}</a>
+                                <li className='flex gap-1 flex-row justify-center items-center pb-0.5'>
+                                    <a onClick={closeNavbar} href={obj.id} className=' text-base font-normal hover:font-medium transition-all ease-linear duration-300 text-white'>{obj.name}</a>
                                 </li>
                             </ul>
                         </div>
