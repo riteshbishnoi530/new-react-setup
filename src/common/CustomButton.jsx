@@ -1,5 +1,5 @@
 import React from 'react'
-import { Arrow } from '../utils/icons'
+import { Arrow } from '../utils/Icons'
 
 function CustomButton() {
   return (        
