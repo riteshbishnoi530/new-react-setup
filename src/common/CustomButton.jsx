@@ -3,7 +3,7 @@ import { Arrow } from '../utils/icons'
 
 function CustomButton() {
   return (        
-        <button className='text-base font-bold bg-sky-500 flex py-3 px-5 text-white rounded-[50px] rounded-tl-none rounded-bl-[20px] hover:scale-90 duration-300 ease-linear'>Compare<Arrow/></button>
+        <button className='text-base font-bold bg-sky-500 flex py-3 px-[22px] text-white rounded-[50px] rounded-tl-none hover:scale-90 duration-300 ease-linear'>Compare<Arrow/></button>
   )
 }
 

@@ -11,8 +11,13 @@ module.exports = {
       },
   },
     extend: {
+      backgroundImage: {
+        'hero-image': "url('../public/assets/webp/header-bg.webp')"
+      },
+
       colors: {
         offBlue: '#003459F5',
+        deepBlue: '#00171F',
       },
       fontSize: {
         CustomSm: '64px',
