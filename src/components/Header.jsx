@@ -12,9 +12,11 @@ function Header() {
               <h1 className='max-w-[530px] max-lg:text-center max-lg:max-w-[690px] max-lg:text-5xl max-sm:text-3xl max-lg:mx-auto text-CustomSm max-xl:text-6xl leading-[110%] text-white'>Easily Compare <span className='font-bold'>Energy, Gas, And Internet</span> Plans</h1>
               <p className='max-w-[506px] max-lg:text-center max-lg:mx-auto text-white leading-[150%] mt-4 max-sm:mt-3'>Find and switch to the best energy, gas, and internet plans with ease. Our platform simplifies your search, letting you compare providers and make informed decisions, all in one place.</p>
               <div className='flex max-lg:justify-center'>
-                <div className='flex bg-white max-w-[476px] justify-between w-full rounded-[100px] rounded-bl-[60px] rounded-tl-none p-2 pl-[14px] border-[#00000033] border mt-[42px] max-lg:mt-8 max-sm:mt-6'>
+                <div className='flex bg-white max-w-[476px] w-full rounded-[100px] rounded-bl-[60px] rounded-tl-none p-2 pl-[14px] border-[#00000033] border mt-[42px] max-lg:mt-8 max-sm:mt-6'>
+                  <form className='flex justify-between w-full'>
                   <input required className='outline-none w-full pr-3' type="text" placeholder='Start typing your address' />
                   <CustomButton />
+                  </form>
                 </div>
               </div>
             </div>
