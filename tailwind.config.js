@@ -18,9 +18,12 @@ module.exports = {
       colors: {
         offBlue: '#003459F5',
         deepBlue: '#00171F',
+        PrussianBlue: '#003459'
       },
       fontSize: {
         CustomSm: '64px',
+        CustomMd: '38px',
+        CustomLg: '32px'
       },
     },
   },
