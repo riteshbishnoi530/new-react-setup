@@ -3,6 +3,7 @@ import Header from './components/Header'
 import LogoList from './components/LogoList';
 import SwitchingEnergy from './components/SwitchingEnergy';
 import SwitchSteps from './components/SwitchSteps';
+import UtilityComparisons from './components/UtilityComparisons';
 function App() {
   return (
     <div>
@@ -10,6 +11,7 @@ function App() {
      <LogoList/>
      <SwitchingEnergy/>
      <SwitchSteps/>
+     <UtilityComparisons/>
     </div>
   );
 }

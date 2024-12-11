@@ -1,3 +1,5 @@
+import { BULB_ICON, BUNDLE_PACKAGES, GAS_PLAN, INTERNET_PLAN } from "./Icons";
+
 export const NAV_LIST = [
     {
       name: "About",
@@ -70,4 +72,31 @@ export const NAV_LIST = [
         hoverContent: 'Enter your location and preferences to find the best energy, gas, and internet plans for you.'
     },
 
-]
+];
+
+export  const ACCORDION_DATA = [
+  {
+    icon: <BULB_ICON />,
+    title: "Electricity Plan Comparisons",
+    description:
+      "Whether you want renewable energy, low rates, or flexible contracts, we’ll help you find the best provider.",
+  },
+  {
+    icon: <GAS_PLAN/>,
+    title: "Gas Plan Comparisons",
+    description:
+      "Compare water providers to find the best rates and services for your needs.",
+  },
+  {
+    icon: <INTERNET_PLAN />,
+    title: "Internet Plan Comparisons",
+    description:
+      "Get the best internet plans with high speed and affordable pricing.",
+  },
+  {
+    icon: <BUNDLE_PACKAGES/>,
+    title: "Bundle Packages",
+    description:
+      "Find the best gas plans with flexible contracts and cost-efficient options.",
+  },
+];
