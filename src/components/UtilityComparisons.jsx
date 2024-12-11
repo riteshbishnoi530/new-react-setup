@@ -12,11 +12,11 @@ const UtilitySection = () => {
 
   return (
     <div className='px-4'>
-      <div className='pt-[162px] max-2xl:pt-32 max-xl:pt-24 max-lg:pt-16 max-md:pt-12 max-sm:pt-10'>
+      <div className='pt-[162px] max-lg:pt-16 max-md:pt-12 max-sm:pt-10'>
         <div className='container'>
           <div className='flex items-center max-xl:flex-col gap-[73px] max-2xl:gap-7 max-xl:justify-center'>
             <div className='w-6/12 max-lg:w-full'>
-            <h3 className='text-5xl max-lg:text-[38px] max-md:text-3xl max-sm:text-2xl text-deepBlue max-w-[456px] max-lg:max-w-full max-lg:text-center'>Comprehensive Utility<span className='font-bold'>Comparisons</span></h3>
+              <h3 className='text-5xl max-lg:text-[38px] max-md:text-3xl max-sm:text-2xl text-deepBlue max-w-[456px] max-lg:max-w-full max-lg:text-center'>Comprehensive Utility<span className='font-bold'>Comparisons</span></h3>
               <div className='accordion-parent pt-12 max-lg:pt-7 max-md:pt-5 max-xl:mx-auto max-xl:max-w-[558px]'>
                 {ACCORDION_DATA.map((item, index) => (
                   <div

@@ -1,4 +1,4 @@
-import { BULB_ICON, BUNDLE_PACKAGES, GAS_PLAN, INTERNET_PLAN } from "./Icons";
+import { BULB_ICON, BUNDLE_PACKAGES, COMPARISON, GAS_PLAN, INTERNET_PLAN, NO_SERVICE, REVIEW_ARROW, SAVE_TIME_MONEY, STAR_ICON, SUPPORT } from "./Icons";
 
 export const NAV_LIST = [
     {
@@ -100,3 +100,83 @@ export  const ACCORDION_DATA = [
       "Find the best gas plans with flexible contracts and cost-efficient options.",
   },
 ];
+
+export const REVIEW = [
+  {
+    icon: <STAR_ICON/>,
+    heading: 'Tailored Recommendations',
+    description: 'Our platform analyzes your unique energy needs and preferences to suggest the best utility providers, ensuring you get the most personalized options available.',
+    arrow: <REVIEW_ARROW/>
+  }
+];
+
+export const UTILITIES = [
+  {
+    icon: <COMPARISON/>,
+    alter: 'comparison',
+    heading: 'Simplified Comparison Process',
+    description: 'Our intuitive platform lets you compare the best utility providers in one place, helping you make a quick and informed decision.',
+  },
+  {
+    icon: <SAVE_TIME_MONEY/>,alter: 'comparison',
+    heading: 'Save Time and Money',
+    description: 'With up-to-date plans and pricing, you can be sure you’re getting the most competitive rates available.',
+  },
+  {
+    icon: <NO_SERVICE/>,
+    alter: 'comparison',
+    heading: 'No Service Interruptions',
+    description: 'We take care of the entire switching process so you can enjoy a hassle-free experience with zero downtime.',
+  },
+  {
+    icon: <SUPPORT/>,
+    alter: 'comparison',
+    heading: 'Comprehensive Support',
+    description: 'Whether you need assistance selecting a plan or during the switch, our dedicated support team is here to help every step of the way.',
+  }
+];
+
+export const TESTIMONIALS = [
+  {
+    icon: './assets/webp/cameron.webp',
+    name: 'Cameron',
+    id: '@cameron',
+    stars: './assets/webp/green-star.webp',
+    description: 'Lorem adipis cing elit ipsum dolor sit amet, consectetur adipis cing elit. Vivamus lacinia odio  adipiscing elit vitae vestibulum vestibulum.'
+  },
+  {
+    icon: './assets/webp/ronald.webp',
+    name: 'Ronald',
+    id: '@ronald',
+    stars: './assets/webp/green-star.webp',
+    description: 'Lorem adipis cing elit ipsum dolor sit amet, consectetur adipis cing elit. Vivamus lacinia odio  adipiscing elit vitae vestibulum vestibulum.'
+  },
+  {
+    icon: './assets/webp/jay-shah.webp',
+    name: 'Jay Shah',
+    id: '@jayshah',
+    stars: './assets/webp/green-star.webp',
+    description: 'Lorem adipis cing elit ipsum dolor sit amet, consectetur adipis cing elit. Vivamus lacinia odio  adipiscing elit vitae vestibulum vestibulum.'
+  },
+  {
+    icon: './assets/webp/cameron.webp',
+    name: 'Cameron',
+    id: '@cameron',
+    stars: './assets/webp/green-star.webp',
+    description: 'Lorem adipis cing elit ipsum dolor sit amet, consectetur adipis cing elit. Vivamus lacinia odio  adipiscing elit vitae vestibulum vestibulum.'
+  },
+  {
+    icon: './assets/webp/ronald.webp',
+    name: 'Ronald',
+    id: '@ronald',
+    stars: './assets/webp/green-star.webp',
+    description: 'Lorem adipis cing elit ipsum dolor sit amet, consectetur adipis cing elit. Vivamus lacinia odio  adipiscing elit vitae vestibulum vestibulum.'
+  },
+  {
+    icon: './assets/webp/jay-shah.webp',
+    name: 'Jay Shah',
+    id: '@jayshah',
+    stars: './assets/webp/green-star.webp',
+    description: 'Lorem adipis cing elit ipsum dolor sit amet, consectetur adipis cing elit. Vivamus lacinia odio  adipiscing elit vitae vestibulum vestibulum.'
+  }
+]

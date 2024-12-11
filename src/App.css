@@ -10,3 +10,36 @@
 .text-shadow:hover{
     text-shadow: 1px 1px white;
 }
+.swiper-slide{
+    margin-left: 1px !important; 
+}
+
+.swiper-button-next:after{
+    display: none;
+}
+
+.swiper-button-prev:after{
+    display: none;
+}
+
+.swiper-button-next{
+    right: -60px !important;
+    width: 40px !important;
+}
+
+.swiper-button-prev{
+    left: -62px !important;
+    width: 40px !important;
+}
+
+.swiper-button-next svg, .swiper-button-prev svg{
+    height: 20px !important;
+}
+
+.swiper-button-prev:hover svg path{
+fill: white !important;
+}
+
+.swiper-button-next:hover svg path{
+    fill: white !important;
+    }
