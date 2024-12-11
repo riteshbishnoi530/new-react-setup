@@ -1,5 +1,5 @@
 import React from 'react';
-import { SWITCH_STEPS } from '../utils/Helper';
+import { SWITCH_STEPS } from '../../utils/Helper';
 import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";

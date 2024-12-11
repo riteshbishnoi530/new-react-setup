@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
-import { NAV_LIST } from '../utils/Helper';
-import { BlackArrow } from '../utils/Icons';
+import { NAV_LIST } from '../../utils/Helper';
+import { BlackArrow } from '../../utils/Icons';
 const Hero = () => {
     const [open, setOpen] = useState(false);
     const toggleSidebar = () => setOpen(!open);

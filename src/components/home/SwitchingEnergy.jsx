@@ -1,6 +1,6 @@
 import React from 'react'
-import { SWITCHING_ENERGY } from '../utils/Helper'
-import { Arrow } from '../utils/Icons'
+import { SWITCHING_ENERGY } from '../../utils/Helper'
+import { Arrow } from '../../utils/Icons'
 
 function SwitchingEnergy() {
   return (

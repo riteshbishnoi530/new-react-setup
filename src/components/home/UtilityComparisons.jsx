@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { ACCORDION_ICON } from '../utils/Icons';
-import { ACCORDION_DATA } from '../utils/Helper';
+import { ACCORDION_ICON } from '../../utils/Icons';
+import { ACCORDION_DATA } from '../../utils/Helper';
 
 const UtilitySection = () => {
   const [expandedIndex, setExpandedIndex] = useState(null);

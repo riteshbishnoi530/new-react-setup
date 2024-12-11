@@ -1,5 +1,5 @@
 import React from 'react'
-import CustomButton from '../common/CustomButton'
+import CustomButton from '../../common/CustomButton'
 import Hero from './Hero'
 function Header() {
   return (
