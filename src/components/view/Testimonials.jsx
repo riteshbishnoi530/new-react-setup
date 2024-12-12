@@ -1,9 +1,9 @@
 import React from 'react'
-import Testimonials from '../testimonials/Testimonials'
+import Testimonialss from '../testimonials/Testimonialss'
 function Testimonials() {
   return (
     <div>
-        <Testimonials/>
+        <Testimonialss/>
     </div>
   )
 }

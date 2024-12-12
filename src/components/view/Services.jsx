@@ -1,9 +1,9 @@
 import React from 'react'
-import Services from '../services/Services'
+import Servicess from '../services/Servicess'
 function Services() {
   return (
     <div>
-        <Services/>
+        <Servicess/>
     </div>
   )
 }

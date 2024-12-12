@@ -1,9 +1,9 @@
 import React from 'react'
-import WhyUs from '../whyUs/WhyUs'
+import Whyus from '../whyUs/Whyus'
 function WhyUs() {
   return (
     <div>
-        <WhyUs/>
+        <Whyus/>
     </div>
   )
 }

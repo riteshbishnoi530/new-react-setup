@@ -1,9 +1,9 @@
 import React from 'react'
-import About from '../about/About'
+import AboutUs from '../about/AboutUs'
 function About() {
   return (
     <div>
-        <About/>
+        <AboutUs/>
     </div>
   )
 }

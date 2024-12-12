@@ -1,9 +1,9 @@
 import React from 'react'
-import Howit from '../howit/Howit'
+import HowIt from '../howIt/HowIt'
 function Howit() {
   return (
     <div>
-      <Howit/>  
+      <HowIt/>  
     </div>
   )
 }
