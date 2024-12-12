@@ -3,27 +3,27 @@ import { BULB_ICON, BUNDLE_PACKAGES, COMPARISON, GAS_PLAN, INTERNET_PLAN, NO_SER
 export const NAV_LIST = [
     {
       name: "About",
-      id: "#about",
+      id: "/about",
     },
     {
       name: "How It Works",
-      id: "#how",
+      id: "/howit",
     },
     {
       name: "Services",
-      id: "#service",
+      id: "/service",
     },
     {
       name: "Testimonials",
-      id: "#testimonials",
+      id: "/testimonials",
     },
     {
       name: "Why Us",
-      id: "#why",
+      id: "/whyus",
     },
     {
       name: "FAQ",
-      id: "#faq",
+      id: "/faq",
     },
   ];
 
@@ -41,7 +41,7 @@ export const NAV_LIST = [
 
   export const SWITCH_STEPS = [
     {
-        stepsImage: './assets/webp/switch-easily.webp',
+        stepsImage: './assets/webp/location.webp',
         alt: 'Enter Location',
         imageContent: './assets/webp/preferences.webp',
         hoverHeading: '1. Your Location',
@@ -49,7 +49,7 @@ export const NAV_LIST = [
     },
 
     {
-        stepsImage: './assets/webp/switch-easily.webp',
+        stepsImage: './assets/webp/compare.webp',
         alt: 'Enter Location',
         imageContent: './assets/webp/providers.webp',
         hoverHeading: '2. Compare Providers',
@@ -65,7 +65,7 @@ export const NAV_LIST = [
     },
 
     {
-        stepsImage: './assets/webp/switch-easily.webp',
+        stepsImage: './assets/webp/plan.webp',
         alt: 'Enter Location',
         imageContent: './assets/webp/best-plan.webp',
         hoverHeading: '4. Best plan',

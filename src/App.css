@@ -11,7 +11,8 @@
     text-shadow: 1px 1px white;
 }
 .swiper-slide{
-    margin-left: 1px !important;
+    display: flex !important;
+    justify-content: center !important;
 }
 
 .swiper-button-next:after{
@@ -23,12 +24,11 @@
 }
 
 .swiper-button-next{
-    right: -60px !important;
+
     width: 40px !important;
 }
 
 .swiper-button-prev{
-    left: -62px !important;
     width: 40px !important;
 }
 
@@ -42,4 +42,8 @@ fill: white !important;
 
 .swiper-button-next:hover svg path{
     fill: white !important;
+    }
+
+.logo::-webkit-scrollbar {
+    width: 0px;
     }

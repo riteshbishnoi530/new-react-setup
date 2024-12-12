@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { ACCORDION_ICON } from '../../utils/Icons';
 import { ACCORDION_DATA } from '../../utils/Helper';
+import Heading from '../../common/Heading';
 
 const UtilitySection = () => {
   const [expandedIndex, setExpandedIndex] = useState(null);
@@ -16,7 +17,7 @@ const UtilitySection = () => {
         <div className='container'>
           <div className='flex items-center max-xl:flex-col gap-[73px] max-2xl:gap-7 max-xl:justify-center'>
             <div className='w-6/12 max-lg:w-full'>
-              <h3 className='text-5xl max-lg:text-[38px] max-md:text-3xl max-sm:text-2xl text-deepBlue max-w-[456px] max-lg:max-w-full max-lg:text-center'>Comprehensive Utility<span className='font-bold'>Comparisons</span></h3>
+              <Heading className='text-left' heading="Comprehensive Utility" spanHeading="Comparisons" />
               <div className='accordion-parent pt-12 max-lg:pt-7 max-md:pt-5 max-xl:mx-auto max-xl:max-w-[558px]'>
                 {ACCORDION_DATA.map((item, index) => (
                   <div

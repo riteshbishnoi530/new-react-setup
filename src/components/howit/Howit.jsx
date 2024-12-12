@@ -1,9 +1,9 @@
 import React from 'react'
 
-function Howit() {
+function HowIt() {
   return (
     <div>Howit</div>
   )
 }
 
-export default Howit
+export default HowIt

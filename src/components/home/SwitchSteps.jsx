@@ -3,6 +3,7 @@ import { SWITCH_STEPS } from '../../utils/Helper';
 import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import Heading from '../../common/Heading';
 
 function SwitchSteps() {
     const settings = {
@@ -40,9 +41,9 @@ function SwitchSteps() {
     return (
         <>
             <div className="px-4">
-                <h3 className="text-5xl max-lg:text-[38px] max-md:text-3xl max-sm:text-2xl text-deepBlue text-center leading-[110%]">
-                    Simple Steps to <span className="font-bold">Switch</span>
-                </h3>
+                <div className="text-center">
+                <Heading heading="Simple Steps to" spanHeading="Switch"/>
+                </div>
                 <p className="opacity-90 max-w-[610px] mx-auto text-center text-gray-600 leading-[150%] mt-4">
                     Lorem ipsum dolor sit amet consectetur. Semper vitae nullam eget consectetur mi. Vulputate sapien a a bibendum
                 </p>

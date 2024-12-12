@@ -1,12 +1,14 @@
 import React, { useEffect, useState } from 'react'
 import { NAV_LIST } from '../../utils/Helper';
 import { BlackArrow } from '../../utils/Icons';
+import { useNavigate } from 'react-router-dom';
 const Hero = () => {
     const [open, setOpen] = useState(false);
     const toggleSidebar = () => setOpen(!open);
-    const closeNavbar = () => {
-        setOpen(false);
-    };
+    const navigation = useNavigate
+    const toggleNav = (link) => {
+        navigation(link)
+    }
     useEffect(() => {
         const handleOverflow = () => {
             if (open && window.innerWidth < 1024) {
@@ -32,7 +34,7 @@ const Hero = () => {
                         <div key={i}>
                             <ul>
                                 <li className='flex gap-1 flex-row justify-center items-center pb-0.5'>
-                                    <a onClick={closeNavbar} href={obj.id} className=' text-base font-normal text-shadow transition-all ease-linear duration-300 text-white'>{obj.name}</a>
+                                    <a onClick={() => toggleNav(obj.id)} href={obj.id} className=' text-base font-normal text-shadow transition-all ease-linear duration-300 text-white'>{obj.name}</a>
                                 </li>
                             </ul>
                         </div>

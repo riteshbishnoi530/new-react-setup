@@ -1,6 +1,7 @@
 import React from 'react'
 import CustomButton from '../../common/CustomButton'
 import Hero from './Hero'
+import { Arrow } from '../../utils/Icons'
 function Header() {
   return (
     <div className='px-5 bg-hero-image bg-bottom bg-cover bg-no-repeat'>
@@ -15,7 +16,7 @@ function Header() {
                 <div className='flex bg-white max-w-[476px] w-full rounded-[100px] rounded-bl-[60px] rounded-tl-none p-2 pl-[14px] border-[#00000033] border mt-[42px] max-lg:mt-8 max-sm:mt-6'>
                   <form className='flex justify-between w-full'>
                   <input required className='outline-none w-full pr-3' type="text" placeholder='Start typing your address' />
-                  <CustomButton />
+                 <CustomButton customButton="Compare" buttonSpan={<Arrow/>}/>
                   </form>
                 </div>
               </div>
