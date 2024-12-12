@@ -10,8 +10,8 @@ function Testimonials() {
   return (
     <div className='max-w-[1248px] pt-[168px] max-lg:pt-16 max-md:pt-12 max-sm:pt-10 relative mx-auto'>
       <div className="container">
-      <Heading heading="Our" spanHeading="Testimonials" />
-        <p className="opacity-90 max-w-[610px] mx-auto text-center text-gray-600 leading-[150%] mt-4">
+        <Heading heading="Our" spanHeading="Testimonials" />
+        <p className="opacity-90 px-4 max-w-[610px] mx-auto text-center text-gray-600 leading-[150%] mt-4">
           Lorem ipsum dolor sit amet consectetur. Semper vitae nullam eget consectetur mi. Vulputate sapien a a bibendum
         </p>
         <div className='relative mt-16 max-lg:mt-12 max-md:mt-10 max-sm:mt-6 px-16'>
@@ -24,8 +24,8 @@ function Testimonials() {
               prevEl: '.swiper-button-prev',
             }}
             breakpoints={{
-              
-              0: { 
+
+              0: {
                 slidesPerView: 1,
                 spaceBetween: 10,
               },
@@ -62,7 +62,7 @@ function Testimonials() {
             <NEXT_ARROW />
           </div>
         </div>
-        
+
       </div>
 
     </div>
