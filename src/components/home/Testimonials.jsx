@@ -11,7 +11,9 @@ function Testimonials() {
   return (
     <div className='max-w-[1248px] px-4 pt-[168px] max-lg:pt-16 max-md:pt-12 max-sm:pt-10 relative mx-auto'>
       <div className="container">
+        <div className='text-center'>
         <Heading heading="Our" spanHeading="Testimonials" />
+        </div>
         <p className="opacity-90 max-w-[610px] mx-auto text-center text-gray-600 leading-[150%] mt-4">
           Lorem ipsum dolor sit amet consectetur. Semper vitae nullam eget consectetur mi. Vulputate sapien a a bibendum
         </p>
